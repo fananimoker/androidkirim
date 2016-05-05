@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.fanani.erif.brol.fragment.Upload">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/id_upload"
+                android:layout_width="@dimen/width_upload"
+                android:layout_height="wrap_content"
+                android:hint="No Identitas"/>
+            <EditText
+                android:id="@+id/nama_upload"
+                android:layout_width="@dimen/width_upload"
+                android:layout_height="wrap_content"
+                android:hint="Nama Lengkap"/>
+            <EditText
+                android:id="@+id/pekerjaan_upload"
+                android:layout_width="@dimen/width_upload"
+                android:layout_height="wrap_content"
+                android:hint="Pekerjaan"/>
+            <EditText
+                android:id="@+id/anak_upload"
+                android:layout_width="@dimen/width_upload"
+                android:layout_height="wrap_content"
+                android:hint="Jumlah Anak"/>
+            <EditText
+                android:id="@+id/dsn_upload"
+                android:layout_width="@dimen/width_upload"
+                android:layout_height="wrap_content"
+                android:hint="Dusun/RT/RW"/>
+            <EditText
+                android:id="@+id/ds_upload"
+                android:layout_width="@dimen/width_upload"
+                android:layout_height="wrap_content"
+                android:hint="Desa/Kelurahan"/>
+            <EditText
+                android:id="@+id/kec_upload"
+                android:layout_width="@dimen/width_upload"
+                android:layout_height="wrap_content"
+                android:hint="Kecamatan"/>
+            <EditText
+                android:id="@+id/kab_upload"
+                android:layout_width="@dimen/width_upload"
+                android:layout_height="wrap_content"
+                android:hint="Kabupaten/Kota"/>
+            <Button
+                android:layout_width="@dimen/width_upload"
+                android:layout_height="wrap_content"
+                android:background="@color/colorIntro"
+                android:text="Berikutnya"
+                android:id="@+id/btnBerikutnya" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
